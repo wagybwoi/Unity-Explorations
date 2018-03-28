@@ -45,7 +45,7 @@ public class SectionTwoController : MonoBehaviour {
 
 		iTween.ScaleTo( cube, iTween.Hash(
 			"scale", new Vector3(0.5f, 2f, 0.5f),
-			"time", 0.5f, 
+			"time", 0.5f,
 			"delay", 0f,
 			"easetype", iTween.EaseType.linear
 		));
