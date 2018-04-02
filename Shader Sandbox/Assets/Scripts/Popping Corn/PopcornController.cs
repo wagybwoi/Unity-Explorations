@@ -42,7 +42,7 @@ public class PopcornController : MonoBehaviour {
 				this.gameObject.GetComponent<Rigidbody> ().AddForce(
 					new Vector3(
 						Random.Range(-30.0f, 30f),
-						80.0f,
+						Random.Range(80.0f, 100f),
 						Random.Range(-30.0f, 30f)
 					),
 					ForceMode.Impulse
