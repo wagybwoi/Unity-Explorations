@@ -19,13 +19,13 @@ public class SectionOneController : MonoBehaviour {
 		for(int i = 0; i < cubes.Count; i++) {
 			iTween.MoveTo( cubes[i], iTween.Hash(
 				"position", new Vector3(cubes[i].transform.position.x, 1.5f, cubes[i].transform.position.z),
-				"time", 1.5f,
+				"time", 0.5f,
 				"delay", (float)i/10f
 			));
 
 			iTween.ScaleTo( cubes[i], iTween.Hash(
 				"scale", new Vector3(1f, 3f, 0.3f),
-				"time", 1.5f,
+				"time", 0.5f,
 				"delay", (float)i/10f,
 				"oncomplete", "UpdateProgress",
 				"oncompletetarget", this.gameObject
@@ -37,13 +37,13 @@ public class SectionOneController : MonoBehaviour {
 		for (int i = 0; i < cubes.Count; i++) {
 			iTween.MoveTo( cubes[i], iTween.Hash(
 				"position", new Vector3(cubes[i].transform.position.x, 0.05f, cubes[i].transform.position.z),
-				"time", 1.5f,
+				"time", 0.5f,
 				"delay", (float)i/10f
 			));
 
 			iTween.ScaleTo (cubes[i], iTween.Hash (
 				"scale", new Vector3 (5f, 0.1f, 0.8f),
-				"time", 1.5f,
+				"time", 0.5f,
 				"delay", (float)i / 10f,
 				"oncomplete", "UpdateProgress",
 				"oncompletetarget", this.gameObject

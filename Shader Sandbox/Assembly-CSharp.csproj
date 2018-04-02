@@ -51,24 +51,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\ApplyMaterialToChildren.cs" />
-     <Compile Include="Assets\Script\BlobFall.cs" />
-     <Compile Include="Assets\Script\BlobSpawner.cs" />
-     <Compile Include="Assets\Script\CameraXMovement.cs" />
-     <Compile Include="Assets\Script\CrazyFlowCamera.cs" />
-     <Compile Include="Assets\Script\CubeArrayGenerator.cs" />
-     <Compile Include="Assets\Script\CubeRotato.cs" />
-     <Compile Include="Assets\Script\DepthMode.cs" />
-     <Compile Include="Assets\Script\FuzzyCubeController.cs" />
-     <Compile Include="Assets\Script\JellyMovement.cs" />
-     <Compile Include="Assets\Script\JellySpawner.cs" />
-     <Compile Include="Assets\Script\PixelDensity.cs" />
-     <Compile Include="Assets\Script\Rotato.cs" />
-     <Compile Include="Assets\Script\Smear.cs" />
-     <Compile Include="Assets\Script\Something New\SectionOneController.cs" />
-     <Compile Include="Assets\Script\Something New\SectionOneObjects.cs" />
-     <Compile Include="Assets\Script\Something New\SectionTwoController.cs" />
-     <Compile Include="Assets\Script\Something New\SectionTwoObjects.cs" />
+     <Compile Include="Assets\Scripts\ApplyMaterialToChildren.cs" />
+     <Compile Include="Assets\Scripts\BlobFall.cs" />
+     <Compile Include="Assets\Scripts\BlobSpawner.cs" />
+     <Compile Include="Assets\Scripts\CameraXMovement.cs" />
+     <Compile Include="Assets\Scripts\CrazyFlowCamera.cs" />
+     <Compile Include="Assets\Scripts\CubeArrayGenerator.cs" />
+     <Compile Include="Assets\Scripts\CubeRotato.cs" />
+     <Compile Include="Assets\Scripts\DepthMode.cs" />
+     <Compile Include="Assets\Scripts\FuzzyCubeController.cs" />
+     <Compile Include="Assets\Scripts\JellyMovement.cs" />
+     <Compile Include="Assets\Scripts\JellySpawner.cs" />
+     <Compile Include="Assets\Scripts\PixelDensity.cs" />
+     <Compile Include="Assets\Scripts\Popping Corn\PopcornController.cs" />
+     <Compile Include="Assets\Scripts\Popping Corn\PopcornSpawner.cs" />
+     <Compile Include="Assets\Scripts\Rotato.cs" />
+     <Compile Include="Assets\Scripts\Smear.cs" />
+     <Compile Include="Assets\Scripts\Something New\SectionOneController.cs" />
+     <Compile Include="Assets\Scripts\Something New\SectionOneObjects.cs" />
+     <Compile Include="Assets\Scripts\Something New\SectionTwoController.cs" />
+     <Compile Include="Assets\Scripts\Something New\SectionTwoObjects.cs" />
      <None Include="Assets\Shaders\Diffuse.shader" />
      <None Include="Assets\Shaders\Explosion.shader" />
      <None Include="Assets\Shaders\StylizedWater.shader" />

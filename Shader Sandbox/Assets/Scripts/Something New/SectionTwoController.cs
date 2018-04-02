@@ -5,7 +5,6 @@ using UnityEngine;
 public class SectionTwoController : MonoBehaviour {
 
 	public GameObject cube;
-	private int methodIndex = 0;
 
 	void Start () {
 		Squish ();
