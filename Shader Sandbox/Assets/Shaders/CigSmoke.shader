@@ -42,11 +42,15 @@
 				v.vertex.x =
 					// Original value
 					(v.vertex.x)
+
 					// Multiply by z for bottom to top growth
 					* (v.vertex.z+0.5)
+
 					// Add sine offset for some behaviour
 //					+ (sin(_Time[1]*1000*v.vertex.z/2)+1)/10;
-					- sin( ((_Time[1]*100)*((v.vertex.z+0.5)/2)) )/5
+//					- sin( ((_Time[1]*100)*((v.vertex.z+0.5)/2)) )/5
+					+ (sin( (v.vertex.z*2)*5 - (_Time[1]*3) )/5) * (v.vertex.z+0.5)
+
 					// Noise for randomness
 //					* (noise.r/2)
 					;
