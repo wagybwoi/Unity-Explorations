@@ -62,6 +62,8 @@
      <Compile Include="Assets\Scripts\FuzzyCubeController.cs" />
      <Compile Include="Assets\Scripts\JellyMovement.cs" />
      <Compile Include="Assets\Scripts\JellySpawner.cs" />
+     <Compile Include="Assets\Scripts\Megacube\MegacubeController.cs" />
+     <Compile Include="Assets\Scripts\Monster\MonsterController.cs" />
      <Compile Include="Assets\Scripts\PixelDensity.cs" />
      <Compile Include="Assets\Scripts\Popping Corn\PopcornController.cs" />
      <Compile Include="Assets\Scripts\Popping Corn\PopcornSpawner.cs" />
@@ -86,6 +88,7 @@
      <None Include="Assets\Shaders\MaterializeTest.shader" />
      <None Include="Assets\Shaders\Silhouette.shader" />
      <None Include="Assets\Shaders\StandardDiffuse2.shader" />
+     <None Include="Assets\Shaders\CigSmoke.shader" />
      <None Include="Assets\Shaders\TexturedShader.shader" />
      <None Include="Assets\Shaders\ToonShader.shader" />
      <None Include="Assets\Shaders\FireTest1.shader" />
