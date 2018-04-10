@@ -313,7 +313,7 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="ShaderForge">
- <HintPath>/Users/wageh/Desktop/Stuff/Unity/Unity-Explorations/Shader Sandbox/Assets/Plugins/ShaderForge/Editor/ShaderForge.dll</HintPath>
+ <HintPath>/Users/wageh/Desktop/Stuff/Unity/Unity Explorations/Unity-Explorations/Shader Sandbox/Assets/Plugins/ShaderForge/Editor/ShaderForge.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>/Users/wageh/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
