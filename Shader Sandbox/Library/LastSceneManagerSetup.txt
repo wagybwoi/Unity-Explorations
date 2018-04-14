@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Ciggy Boi.unity
+- path: Assets/Scenes/_New.unity
   isLoaded: 1
   isActive: 1

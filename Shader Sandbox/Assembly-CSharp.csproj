@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\_New\CubeSpawner.cs" />
      <Compile Include="Assets\Scripts\ApplyMaterialToChildren.cs" />
      <Compile Include="Assets\Scripts\BlobFall.cs" />
      <Compile Include="Assets\Scripts\BlobSpawner.cs" />
