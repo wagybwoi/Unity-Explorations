@@ -161,7 +161,7 @@ TrailRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: a567331aa1ced46cb8d025eda67c11bb, type: 2}
+  - {fileID: 2100000, guid: 4a36ae71b48f14d6fb2eae31da682a32, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -195,8 +195,8 @@ TrailRenderer:
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.50719416
-        value: 0.44444275
+        time: 0.5035931
+        value: 0.33332825
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -359,7 +359,7 @@ TrailRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: a567331aa1ced46cb8d025eda67c11bb, type: 2}
+  - {fileID: 2100000, guid: 4a36ae71b48f14d6fb2eae31da682a32, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -393,8 +393,8 @@ TrailRenderer:
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.50719416
-        value: 0.44444275
+        time: 0.5035931
+        value: 0.33332825
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -557,7 +557,7 @@ TrailRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: a567331aa1ced46cb8d025eda67c11bb, type: 2}
+  - {fileID: 2100000, guid: 4a36ae71b48f14d6fb2eae31da682a32, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -591,8 +591,8 @@ TrailRenderer:
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.50719416
-        value: 0.44444275
+        time: 0.5035931
+        value: 0.33332825
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -808,7 +808,7 @@ TrailRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: a567331aa1ced46cb8d025eda67c11bb, type: 2}
+  - {fileID: 2100000, guid: 4a36ae71b48f14d6fb2eae31da682a32, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -842,8 +842,8 @@ TrailRenderer:
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.50719416
-        value: 0.44444275
+        time: 0.5035931
+        value: 0.33332825
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1018,7 +1018,7 @@ TrailRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: a567331aa1ced46cb8d025eda67c11bb, type: 2}
+  - {fileID: 2100000, guid: 4a36ae71b48f14d6fb2eae31da682a32, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1052,8 +1052,8 @@ TrailRenderer:
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.50719416
-        value: 0.44444275
+        time: 0.5035931
+        value: 0.33332825
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1216,7 +1216,7 @@ TrailRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: a567331aa1ced46cb8d025eda67c11bb, type: 2}
+  - {fileID: 2100000, guid: 4a36ae71b48f14d6fb2eae31da682a32, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1250,8 +1250,8 @@ TrailRenderer:
         outSlope: 0
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.50719416
-        value: 0.44444275
+        time: 0.5035931
+        value: 0.33332825
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1407,7 +1407,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.90344834, g: 1, b: 0, a: 0}
+  m_BackGroundColor: {r: 0.66176474, g: 1, b: 0.9860041, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
