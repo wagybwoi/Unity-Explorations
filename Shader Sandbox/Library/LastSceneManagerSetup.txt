@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Retro Metro.unity
+- path: Assets/BASIC.unity
   isLoaded: 1
   isActive: 1

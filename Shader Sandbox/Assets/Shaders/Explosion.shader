@@ -1,7 +1,7 @@
 ﻿Shader "CookbookShaders/Explosion" {
 	Properties {
 		_RampTex("Color Ramp", 2D) = "white" {}
-		_RampOffset("Ramp Offset", Range(-0.5,0.5)) = 0
+		_RampOffset("Ramp Offset", Range(-1,1)) = 0
 
 		_NoiseTex("Noise Tex", 2D) = "gray" {}
 		_Period("Period", Range(0,1)) = 0.5
@@ -51,7 +51,7 @@
 			float n = saturate(noise.r + _RampOffset);
 			float time = _Time;
 //			clip( _ClipRange - n );
-			clip( ((sin(time*5)+1)*0.25) - n );
+			clip( ((sin(time*5)+1)*0.5) - n );
 			half4 c = tex2D(_RampTex, float2(n,0.5));
 			o.Albedo = c.rgb;
 			o.Emission = c.rgb*c.a;
