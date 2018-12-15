@@ -70,11 +70,11 @@
      <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\Tiles.shader" />
      <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\PixelRotator.shader" />
      <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\CustomLighting.shader" />
- <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/Ahmed PC/Desktop/Unity-Explorations/Shader Sandbox/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Ahmed PC/Desktop/Unity-Explorations/Shader Sandbox/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>C:/Users/Ahmed PC/Desktop/Unity-Explorations/Shader Sandbox/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

@@ -61,6 +61,9 @@
      <Compile Include="Assets\Scripts\CubeArrayGenerator.cs" />
      <Compile Include="Assets\Scripts\CubeRotato.cs" />
      <Compile Include="Assets\Scripts\DepthMode.cs" />
+     <Compile Include="Assets\Scripts\DisableFrustumCulling.cs" />
+     <Compile Include="Assets\Scripts\Explosion.cs" />
+     <Compile Include="Assets\Scripts\Framerate.cs" />
      <Compile Include="Assets\Scripts\FuzzyCubeController.cs" />
      <Compile Include="Assets\Scripts\JellyMovement.cs" />
      <Compile Include="Assets\Scripts\JellySpawner.cs" />
@@ -77,10 +80,12 @@
      <Compile Include="Assets\Scripts\Something New\SectionOneObjects.cs" />
      <Compile Include="Assets\Scripts\Something New\SectionTwoController.cs" />
      <Compile Include="Assets\Scripts\Something New\SectionTwoObjects.cs" />
+     <Compile Include="Assets\Shared\Scripts\RotateTransform.cs" />
      <None Include="Assets\Shaders\Diffuse.shader" />
      <None Include="Assets\Shaders\Explosion.shader" />
      <None Include="Assets\Shaders\StylizedWater.shader" />
      <None Include="Assets\Shaders\MeltyBoi.shader" />
+     <None Include="Assets\1 - Vertex Displacement\VertexDisplacement - World.shader" />
      <None Include="Assets\Shaders\TerrainTest.shader" />
      <None Include="Assets\Shaders\ShaderForgeTest.shader" />
      <None Include="Assets\Shaders\AnimatedVertices.shader" />
@@ -90,11 +95,14 @@
      <None Include="Assets\Shaders\Smoke.shader" />
      <None Include="Assets\Shaders\Fur.shader" />
      <None Include="Assets\Shaders\LambertianLighting.shader" />
+     <None Include="Assets\Shaders\UnlitWithShadows.shader" />
      <None Include="Assets\Shaders\MaterializeTest.shader" />
      <None Include="Assets\Shaders\Silhouette.shader" />
      <None Include="Assets\Shaders\StandardDiffuse2.shader" />
      <None Include="Assets\Shaders\CigSmoke.shader" />
      <None Include="Assets\Shaders\TexturedShader.shader" />
+     <None Include="Assets\2 - Lit Vertex Displacement\Lit Vertex Displacement - Base.shader" />
+     <None Include="Assets\Shaders\SmokeFragment.shader" />
      <None Include="Assets\Shaders\ToonShader.shader" />
      <None Include="Assets\Shaders\FireTest1.shader" />
      <None Include="Assets\Shaders\TestShader.shader" />
@@ -105,13 +113,16 @@
      <None Include="Assets\Shaders\FurPass.cginc" />
      <None Include="Assets\Shaders\ScrollingTexturedShader.shader" />
      <None Include="Assets\Shaders\TestVertices.shader" />
+     <None Include="Assets\2 - Lit Vertex Displacement\Lit Vertex Displacement - Shadows.shader" />
+     <None Include="Assets\2 - Lit Vertex Displacement\Lit Vertex Displacement - Normals.shader" />
      <None Include="Assets\Shaders\GlitchSphere.shader" />
+     <None Include="Assets\1 - Vertex Displacement\VertexDisplacement - Object.shader" />
      <None Include="Assets\Shaders\CubeArray.shader" />
- <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/Ahmed PC/Desktop/Unity-Explorations/Shader Sandbox/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Ahmed PC/Desktop/Unity-Explorations/Shader Sandbox/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>C:/Users/Ahmed PC/Desktop/Unity-Explorations/Shader Sandbox/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
