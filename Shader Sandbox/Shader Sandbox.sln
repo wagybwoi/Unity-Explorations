@@ -5,8 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shader Sandbox", "Assembly-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shader Sandbox", "Assembly-CSharp-firstpass.csproj", "{3C9D2E4C-1C10-5EC7-A10A-6D41A06AA713}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shader Sandbox", "Assembly-CSharp-Editor-firstpass.csproj", "{5C7A33E7-8442-249E-B393-1DCF36EF97FE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,10 +19,6 @@ Global
 		{3C9D2E4C-1C10-5EC7-A10A-6D41A06AA713}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C9D2E4C-1C10-5EC7-A10A-6D41A06AA713}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C9D2E4C-1C10-5EC7-A10A-6D41A06AA713}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5C7A33E7-8442-249E-B393-1DCF36EF97FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C7A33E7-8442-249E-B393-1DCF36EF97FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C7A33E7-8442-249E-B393-1DCF36EF97FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C7A33E7-8442-249E-B393-1DCF36EF97FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

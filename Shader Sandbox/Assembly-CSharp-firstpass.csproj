@@ -55,21 +55,7 @@
      <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\MoveSample.cs" />
      <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\RotateSample.cs" />
      <Compile Include="Assets\Plugins\Pixelplacement\iTween\Sample\SampleInfo.cs" />
-     <Compile Include="Assets\Plugins\ShaderForge\Example Assets\Scripts\EditorLabel.cs" />
-     <Compile Include="Assets\Plugins\ShaderForge\Example Assets\Scripts\EnableCameraDepthInForward.cs" />
-     <Compile Include="Assets\Plugins\ShaderForge\Example Assets\Scripts\SoftNormalsToVertexColor.cs" />
-     <None Include="Assets\Plugins\ShaderForge\Readme.txt" />
-     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\Vegetation.shader" />
-     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\VertexAnimation.shader" />
-     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\Refraction.shader" />
-     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\Parallax.shader" />
-     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\LightWrapping.shader" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
-     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\VertexColorRounding.shader" />
-     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\TessellationDisplacement.shader" />
-     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\Tiles.shader" />
-     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\PixelRotator.shader" />
-     <None Include="Assets\Plugins\ShaderForge\Example Assets\Shaders\CustomLighting.shader" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Ahmed PC/Desktop/Unity-Explorations/Shader Sandbox/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

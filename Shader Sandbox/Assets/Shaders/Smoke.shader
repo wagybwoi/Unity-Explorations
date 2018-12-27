@@ -36,7 +36,8 @@ Shader "CookbookShaders/Smoke" {
 		void vert (inout appdata_full v) {
 			float time = _Time[0];
 			float4 world_space_normal = mul( unity_ObjectToWorld, v.normal );
-			float NdotD = clamp(dot(_Direction.xyz, world_space_normal.xyz), 0, 10);
+			float3 local_space_normal = v.normal;
+			float NdotD = clamp(dot(_Direction.xyz, local_space_normal.xyz), 0, 10);
 			float4 noiseTex = tex2Dlod (_NoiseTex, float4(v.texcoord.x + (time*2), v.texcoord.y + (time*2), 0, 0));
 
 			// if(NdotD > 0) {
