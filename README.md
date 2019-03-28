@@ -1,2 +1,2 @@
 # Unity-Explorations
-Random visual explorations in Unity.
+Visual explorations in Unity.
